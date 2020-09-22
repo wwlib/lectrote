@@ -25,6 +25,7 @@ if (!game_options.use_unminified_js) {
   window.GlkOte = elkote_mods.GlkOte;
   window.Dialog = elkote_mods.Dialog;
   window.Glk = elkote_mods.Glk;
+  window.Electrows = elkote_mods.Electrows;
   var quixe_mods = require('./quixe/lib/quixe.min.js');
   window.Quixe = quixe_mods.Quixe;
   window.GiDispa = quixe_mods.GiDispa;
@@ -34,6 +35,7 @@ else {
   window.GlkOte = require('./quixe/src/glkote/glkote.js').GlkOte;
   window.Dialog = require('./quixe/src/glkote/electrofs.js').Dialog;
   window.Glk = require('./quixe/src/glkote/glkapi.js').Glk;
+  window.Electrows = require('./quixe/src/glkote/electrows.js').Electrows;
   window.Quixe = require('./quixe/src/quixe/quixe.js').Quixe;
   window.GiDispa = require('./quixe/src/quixe/gi_dispa.js').GiDispa;
   window.GiLoad = require('./quixe/src/quixe/gi_load.js').GiLoad;
