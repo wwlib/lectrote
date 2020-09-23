@@ -1,6 +1,13 @@
 # Lectrote
 <img style="float:right;" src="icon-128.png" alt="Lectrote logo: purple compass">
 
+### wwlib electrows branch - notes
+
+This branch [electrows](https://github.com/wwlib/lectrote/tree/electrows) uses a [modified version of quixe](https://github.com/wwlib/quixe/tree/electrows) that implements a simple socket server over which a client can interact with the active story/book.
+
+This feature can be tested with this cli-style socket client:
+- https://github.com/wwlib/lectrote-socket-client
+
 ### The IF interpreter in an [Electron][] shell
 
 - Version 1.3.7
